@@ -582,7 +582,7 @@ public class ExquisiteCorpse {
                 System.out.println("Do you want to encode (1) or decode (2)?");
                 System.out.print("> ");
                 String line = sc.nextLine();
-                int choice = (int) Integer.getInteger(line);
+                int choice = Integer.decode(line);
                 switch (choice) {
                 case 1:
                     boolean shouldContinue2 = true;
